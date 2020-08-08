@@ -26,6 +26,9 @@ TEMPLATE_PAGES = {
 # The _redirects file is used by Netlify to create redirect rules
 STATIC_PATHS = ["images"]
 
+PLUGINS = [
+    'pelican_youtube'
+]
 # Settings for the URLs of the blog and the articles
 #ARTICLE_PATHS = ["blog"]
 #ARTICLE_URL = "blog/{slug}/"
